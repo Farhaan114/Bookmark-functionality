@@ -14,7 +14,7 @@ A React-based dashboard application for managing and viewing bookmarks. The dash
 
 - **Frontend**: React, React Router, Axios, React Icons, CSS
 - **Backend**: Node.js, Express.js (for API)
-- **Database**: MongoDB (for storing bookmarks and user data)
+- **Database**: MySQL (for storing items, bookmarks and user data)
 - **Styling**: Custom CSS, react-toastify for notifications
 
 ## Prerequisites
