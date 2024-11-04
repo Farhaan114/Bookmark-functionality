@@ -1,0 +1,131 @@
+/* Bookmarks.css */
+.bookmarks-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 1000px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.card-container {
+    display: grid;
+    gap: 20px;
+    max-height: 500px; /* Set the maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));    
+
+}
+
+.card {
+    position: relative; /* Positioning context for the icon */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+        transition: box-shadow 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the star icon button */
+.bookmark-icon {
+    position: absolute; /* Absolute positioning to place it in the top right corner */
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 24px; /* Icon size */
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+/* Tooltip style */
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: small;
+    bottom: 125%; /* Position above the star */
+    left: 50%;
+    margin-left: -60px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.bookmark-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1; /* Show tooltip on hover */
+}
+
+/* Remove Bookmark Button */
+.remove-bookmark-button {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-bookmark-button:hover {
+    background-color: #c41c2f;
+}
+
+/* Navigation Button */
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #232121;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+ 
