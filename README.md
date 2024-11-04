@@ -56,6 +56,18 @@ Before you begin, ensure you have the following installed:
    ```bash
    nodemon index.js
    ```
+
+## Screenshots 
+- ![image](https://github.com/user-attachments/assets/0f365ce1-ebe0-4689-8300-6a31b226d58a)
+- ![image](https://github.com/user-attachments/assets/f31ab0d5-6b8c-4c18-93f2-b14aec700654)
+- ![image](https://github.com/user-attachments/assets/47b88a17-5966-4861-8396-4670213c730e)
+- ![image](https://github.com/user-attachments/assets/5065d0e7-e17d-42fd-886a-a96dbb639b23)
+- ![image](https://github.com/user-attachments/assets/4803d146-d126-4d86-a0c6-d76b0de89dce)
+
+- removing a bookmark ![image](https://github.com/user-attachments/assets/bb70dc1c-d3a8-44d1-8283-f835f01cafde)
+
+
+
     
 ## Usage
 - View Bookmarks: Log in, and all bookmarks associated with your account will be displayed on the dashboard.
