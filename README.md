@@ -57,19 +57,20 @@ Before you begin, ensure you have the following installed:
    nodemon index.js
    ```
     
-Usage
-View Bookmarks: Log in, and all bookmarks associated with your account will be displayed on the dashboard.
-Search Bookmarks: Use the search bar to filter bookmarks by title or URL.
-Remove Bookmarks: Click the "Remove Bookmark" button to delete a bookmark.
-Add Bookmarks: Navigate to the "Items" page and add items to your bookmarks.
+## Usage
+- View Bookmarks: Log in, and all bookmarks associated with your account will be displayed on the dashboard.
+- Search Bookmarks: Use the search bar to filter bookmarks by title or URL.
+- Remove Bookmarks: Click the "Remove Bookmark" button to delete a bookmark.
+- Add Bookmarks: Navigate to the "Items" page and add items to your bookmarks.
 
-API Endpoints
+## API Endpoints
 The application interacts with a backend API to manage bookmarks. Below are the endpoints used:
 
-GET /api/bookmarks: Fetch all bookmarks for the logged-in user.
-DELETE /api/bookmarks: Remove a bookmark by item ID. Requires an item ID in the request body.
-POST /api/bookmarks: Add a new bookmark.
-License
+- GET /api/bookmarks: Fetch all bookmarks for the logged-in user.
+- DELETE /api/bookmarks: Remove a bookmark by item ID. Requires an item ID in the request body.
+- POST /api/bookmarks: Add a new bookmark.
+
+## License
 This project is licensed under the MIT License.
 
 Contact
