@@ -86,6 +86,6 @@ The application interacts with a backend API to manage bookmarks. Below are the 
 This project is licensed under the MIT License.
 
 Contact
-For questions, please contact Your Name.
+For questions, please contact Farhaan114 (FraanKey).
 
 Enjoy using Bookmarks Dashboard! 😊
